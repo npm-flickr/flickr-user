@@ -15,8 +15,7 @@ function user (name, callback) {
     callback(undefined, {
       name: response.user.username._content,
       id: response.user.id,
-      nsid: response.user.
-nsid
+      nsid: response.user.nsid
     });
   });
 }

@@ -1,0 +1,27 @@
+{
+  "name": "flickr-user",
+  "version": "0.0.0",
+  "description": "Find a Flickr user by username",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "flickr",
+    "photos",
+    "photography"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-flickr/flickr-user.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^1.11.1",
+    "with-env": "^0.1.0"
+  },
+  "dependencies": {
+    "flickr-client": "0.0.x"
+  }
+}

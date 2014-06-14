@@ -33,7 +33,7 @@ user('azer', function (error, azer) {
 })
 ```
 
-[flickr-client](http://github.com/azer/flickr-client) can be passed to avoid repeating auth options:
+[flickr-client](http://github.com/npm-flickr/flickr-client) can be passed to avoid repeating auth options:
 
 ```js
 var client = require('flickr-client')({

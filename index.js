@@ -9,13 +9,12 @@ function setup (options) {
 }
 
 function user (name, callback) {
-  client('people.findByUsername', { username: name }, function (error, response) {
+  client('urls.lookupUser', { url: 'http://flickr.com/photos/' + name }, function (error, response) {
     if (error) return callback(error);
 
     callback(undefined, {
-      name: response.user.username._content,
-      id: response.user.id,
-      nsid: response.user.nsid
+      name: name,
+      id: response.user.id
     });
   });
 }

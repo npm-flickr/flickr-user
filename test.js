@@ -7,10 +7,9 @@ var user = require("./")({
 
 test('getting a user', function (t) {
   user('azer', function (error, azer) {
-    t.plan(4);
+    t.plan(3);
     t.error(error);
     t.equal(azer.name, 'azer');
-    t.equal(azer.id, '13517180@N00');
-    t.equal(azer.nsid, '13517180@N00');
+    t.equal(azer.id, '98269877@N00');
   });
 });

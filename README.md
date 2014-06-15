@@ -1,6 +1,8 @@
 ## flickr-user
 
-Find a Flickr user by username
+Find a Flickr user by username. Unlike Flickr's official API, this module assumes that username is whatever appears in the URL.
+
+e.g: if user's url is flickr.com/azer, its user name is "azer"
 
 ## Install
 
@@ -22,10 +24,7 @@ var user = require('flickr-user')({
 user('azer', function (error, azer) {
 
   azer.id
-  // => 13517180@N00
-
-  azer.nsid
-  // => 13517180@N00
+  // => 98269877@N00
 
   azer.name
   // => "azer"

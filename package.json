@@ -1,6 +1,6 @@
 {
   "name": "flickr-user",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find a Flickr user by username",
   "main": "index.js",
   "scripts": {
